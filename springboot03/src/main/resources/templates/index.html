@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--向span双标签内部添加文本-->
+<span th:text="pageMessage"></span> <br/>
+<!--从域中根据参数名取出参数值放在双标签中-->
+<span th:text="${name}"></span>      <br/>
+<!--向input标签中的value属性赋值-->
+<input type="text"  th:value="pageMessage"/>
+<!--从域中根据参数名取出参数值 向input标签中的value属性赋值-->
+<input type="text"  th:value="${name}"/>
+<span th:if="${name}!='张三'">会显示</span>
+<span th:text="1+1"></span>
+<span th:text="'1'+1"></span>
+<span th:text="${emp.empno}+1"></span>
+<span th:text="${emp.empno+1}"></span>
+</body>
+</html>

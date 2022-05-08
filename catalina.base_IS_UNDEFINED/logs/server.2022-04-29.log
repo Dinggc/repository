@@ -1,0 +1,51 @@
+2022-04-29 00:01:06.135 [main] INFO  com.msb.Springboot03Application - Starting Springboot03Application using Java 1.8.0_121 on LAPTOP-IC11SPVO with PID 5384 (D:\idea2019\LianXi\SpringBoot\springboot03\target\classes started by dingguicong in D:\idea2019\LianXi\SpringBoot)
+2022-04-29 00:01:06.137 [main] INFO  com.msb.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-04-29 00:01:07.091 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-04-29 00:01:07.098 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-29 00:01:07.099 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-29 00:01:07.107 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-29 00:01:07.270 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2022-04-29 00:01:07.270 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1093 ms
+2022-04-29 00:01:07.349 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-04-29 00:01:07.450 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-04-29 00:01:07.784 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2022-04-29 00:01:08.021 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-29 00:01:08.037 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot'
+2022-04-29 00:01:08.050 [main] INFO  com.msb.Springboot03Application - Started Springboot03Application in 2.343 seconds (JVM running for 3.539)
+2022-04-29 00:01:15.899 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-29 00:01:15.899 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-29 00:01:15.901 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-29 00:03:03.022 [main] INFO  com.msb.Springboot03Application - Starting Springboot03Application using Java 1.8.0_121 on LAPTOP-IC11SPVO with PID 41572 (D:\idea2019\LianXi\SpringBoot\springboot03\target\classes started by dingguicong in D:\idea2019\LianXi\SpringBoot)
+2022-04-29 00:03:03.026 [main] INFO  com.msb.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-04-29 00:03:04.010 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-04-29 00:03:04.017 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-29 00:03:04.017 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-29 00:03:04.017 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-29 00:03:04.156 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2022-04-29 00:03:04.157 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1090 ms
+2022-04-29 00:03:04.230 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-04-29 00:03:04.330 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-04-29 00:03:04.648 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2022-04-29 00:03:04.857 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-29 00:03:04.872 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot'
+2022-04-29 00:03:04.880 [main] INFO  com.msb.Springboot03Application - Started Springboot03Application in 2.361 seconds (JVM running for 3.799)
+2022-04-29 00:03:42.009 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-29 00:03:42.009 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-29 00:03:42.010 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-04-29 00:04:19.572 [main] INFO  com.msb.Springboot03Application - Starting Springboot03Application using Java 1.8.0_121 on LAPTOP-IC11SPVO with PID 39588 (D:\idea2019\LianXi\SpringBoot\springboot03\target\classes started by dingguicong in D:\idea2019\LianXi\SpringBoot)
+2022-04-29 00:04:19.575 [main] INFO  com.msb.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-04-29 00:04:20.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-04-29 00:04:20.535 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-29 00:04:20.535 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-29 00:04:20.535 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-29 00:04:20.680 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2022-04-29 00:04:20.681 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1055 ms
+2022-04-29 00:04:20.761 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-04-29 00:04:20.860 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-04-29 00:04:21.187 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2022-04-29 00:04:21.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-29 00:04:21.407 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot'
+2022-04-29 00:04:21.417 [main] INFO  com.msb.Springboot03Application - Started Springboot03Application in 2.347 seconds (JVM running for 3.505)
+2022-04-29 00:05:59.084 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-29 00:05:59.084 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-29 00:05:59.085 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms

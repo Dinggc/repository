@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<span th:text="1+1"></span>
+<span th:text="'1'+1"></span>
+<span th:text="${emp.empno}+1"></span>
+<span th:text="${emp.empno+1}"></span>
+<div th:text="1>0 and 2<3"></div>
+<div th:text="1>0 and 2>3"></div>
+<div th:text="1>0 or 2<3"></div>
+<div th:text="1>0 or 2>3"></div>
+<hr/>
+<div th:text="${emp.sal ge 800}"></div>
+<div th:text="${emp.sal } ge 800"></div>
+<div th:text="${emp.sal ge 800} and ${emp.deptno eq 20}"></div>
+<div th:text="(${emp.sal }ge 800) or (${emp.deptno } ne 20)"></div>
+<div th:text="${emp.sal ge 800 or emp.deptno ne 20 }"></div>
+</body>
+</html>

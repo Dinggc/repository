@@ -1,0 +1,256 @@
+2022-04-28 22:40:47.107 [main] INFO  com.msb.Springboot03Application - Starting Springboot03Application using Java 1.8.0_121 on LAPTOP-IC11SPVO with PID 25148 (D:\idea2019\LianXi\SpringBoot\springboot03\target\classes started by dingguicong in D:\idea2019\LianXi\SpringBoot)
+2022-04-28 22:40:47.107 [main] INFO  com.msb.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-04-28 22:40:47.951 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-04-28 22:40:47.951 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-28 22:40:47.951 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-28 22:40:47.951 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-28 22:40:48.092 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2022-04-28 22:40:48.092 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 953 ms
+2022-04-28 22:40:48.170 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-04-28 22:40:48.248 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-04-28 22:40:48.732 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-28 22:40:48.748 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot'
+2022-04-28 22:40:48.748 [main] INFO  com.msb.Springboot03Application - Started Springboot03Application in 2.039 seconds (JVM running for 3.128)
+2022-04-28 22:41:02.874 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-28 22:41:02.875 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-28 22:41:02.875 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2022-04-28 22:41:03.039 [http-nio-8080-exec-1] DEBUG com.msb.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-04-28 22:41:03.052 [http-nio-8080-exec-1] DEBUG com.msb.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-04-28 22:41:03.068 [http-nio-8080-exec-1] DEBUG com.msb.mapper.EmpMapper.findAll - <==      Total: 16
+2022-04-28 22:41:08.281 [http-nio-8080-exec-3] DEBUG com.msb.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-04-28 22:41:08.281 [http-nio-8080-exec-3] DEBUG com.msb.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-04-28 22:41:08.285 [http-nio-8080-exec-3] DEBUG com.msb.mapper.EmpMapper.findAll - <==      Total: 16
+2022-04-28 23:28:55.409 [main] INFO  com.msb.Springboot03Application - Starting Springboot03Application using Java 1.8.0_121 on LAPTOP-IC11SPVO with PID 20504 (D:\idea2019\LianXi\SpringBoot\springboot03\target\classes started by dingguicong in D:\idea2019\LianXi\SpringBoot)
+2022-04-28 23:28:55.413 [main] INFO  com.msb.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-04-28 23:28:56.964 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-04-28 23:28:56.974 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-28 23:28:56.974 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-28 23:28:56.975 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-28 23:28:57.154 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2022-04-28 23:28:57.154 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1670 ms
+2022-04-28 23:28:57.259 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-04-28 23:28:57.399 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-04-28 23:28:58.168 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-28 23:28:58.194 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot'
+2022-04-28 23:28:58.205 [main] INFO  com.msb.Springboot03Application - Started Springboot03Application in 3.392 seconds (JVM running for 5.009)
+2022-04-28 23:31:25.920 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-28 23:31:25.920 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-28 23:31:25.921 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-28 23:31:26.081 [http-nio-8080-exec-1] DEBUG com.msb.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-04-28 23:31:26.096 [http-nio-8080-exec-1] DEBUG com.msb.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-04-28 23:31:26.114 [http-nio-8080-exec-1] DEBUG com.msb.mapper.EmpMapper.findAll - <==      Total: 16
+2022-04-28 23:31:43.798 [http-nio-8080-exec-2] DEBUG com.msb.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-04-28 23:31:43.799 [http-nio-8080-exec-2] DEBUG com.msb.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-04-28 23:31:43.802 [http-nio-8080-exec-2] DEBUG com.msb.mapper.EmpMapper.findAll - <==      Total: 16
+2022-04-28 23:31:56.236 [http-nio-8080-exec-4] DEBUG com.msb.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-04-28 23:31:56.236 [http-nio-8080-exec-4] DEBUG com.msb.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-04-28 23:31:56.239 [http-nio-8080-exec-4] DEBUG com.msb.mapper.EmpMapper.findAll - <==      Total: 16
+2022-04-28 23:31:56.261 [http-nio-8080-exec-4] ERROR freemarker.runtime - Error executing FreeMarker template
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> k  [in template "showMap.ftlh" at line 42, column 26]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${empMap[k].ename}  [in template "showMap.ftlh" at line 42, column 17]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.Expression.assertNonNull(Expression.java:249)
+	at freemarker.core.DynamicKeyName._eval(DynamicKeyName.java:75)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Dot._eval(Dot.java:41)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:383)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:291)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:657)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:347)
+	at freemarker.core.Environment.visit(Environment.java:353)
+	at freemarker.core.Environment.process(Environment.java:326)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:391)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:304)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:255)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-04-28 23:31:56.266 [http-nio-8080-exec-4] ERROR o.a.c.c.C.[.[.[/springboot].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [/springboot] threw exception [Request processing failed; nested exception is freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> k  [in template "showMap.ftlh" at line 42, column 26]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${empMap[k].ename}  [in template "showMap.ftlh" at line 42, column 17]
+----] with root cause
+freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> k  [in template "showMap.ftlh" at line 42, column 26]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${empMap[k].ename}  [in template "showMap.ftlh" at line 42, column 17]
+----
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.Expression.assertNonNull(Expression.java:249)
+	at freemarker.core.DynamicKeyName._eval(DynamicKeyName.java:75)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.Dot._eval(Dot.java:41)
+	at freemarker.core.Expression.eval(Expression.java:101)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:383)
+	at freemarker.core.IteratorBlock$IterationContext.executedNestedContentForCollOrSeqListing(IteratorBlock.java:291)
+	at freemarker.core.IteratorBlock$IterationContext.executeNestedContent(IteratorBlock.java:271)
+	at freemarker.core.IteratorBlock$IterationContext.accept(IteratorBlock.java:244)
+	at freemarker.core.Environment.visitIteratorBlock(Environment.java:657)
+	at freemarker.core.IteratorBlock.acceptWithResult(IteratorBlock.java:108)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:94)
+	at freemarker.core.Environment.visit(Environment.java:347)
+	at freemarker.core.Environment.visit(Environment.java:353)
+	at freemarker.core.Environment.process(Environment.java:326)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:391)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:304)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:255)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1401)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2022-04-28 23:31:56.293 [http-nio-8080-exec-4] ERROR o.s.b.a.w.s.e.ErrorMvcAutoConfiguration$StaticView - Cannot render error page for request [/springboot/freemarker/showMap] as the response has already been committed. As a result, the response may have the wrong status code.
+2022-04-28 23:35:11.183 [main] INFO  com.msb.Springboot03Application - Starting Springboot03Application using Java 1.8.0_121 on LAPTOP-IC11SPVO with PID 39984 (D:\idea2019\LianXi\SpringBoot\springboot03\target\classes started by dingguicong in D:\idea2019\LianXi\SpringBoot)
+2022-04-28 23:35:11.186 [main] INFO  com.msb.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-04-28 23:35:12.066 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-04-28 23:35:12.072 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-28 23:35:12.072 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-28 23:35:12.072 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-28 23:35:12.214 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2022-04-28 23:35:12.215 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 986 ms
+2022-04-28 23:35:12.280 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-04-28 23:35:12.384 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-04-28 23:35:12.908 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-28 23:35:12.926 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot'
+2022-04-28 23:35:12.936 [main] INFO  com.msb.Springboot03Application - Started Springboot03Application in 2.167 seconds (JVM running for 3.25)
+2022-04-28 23:36:08.808 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-28 23:36:08.808 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-28 23:36:08.809 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-28 23:36:08.967 [http-nio-8080-exec-1] DEBUG com.msb.mapper.EmpMapper.findAll - ==>  Preparing: select * from emp
+2022-04-28 23:36:08.988 [http-nio-8080-exec-1] DEBUG com.msb.mapper.EmpMapper.findAll - ==> Parameters: 
+2022-04-28 23:36:09.010 [http-nio-8080-exec-1] DEBUG com.msb.mapper.EmpMapper.findAll - <==      Total: 16
+2022-04-28 23:52:16.694 [main] INFO  com.msb.Springboot03Application - Starting Springboot03Application using Java 1.8.0_121 on LAPTOP-IC11SPVO with PID 24080 (D:\idea2019\LianXi\SpringBoot\springboot03\target\classes started by dingguicong in D:\idea2019\LianXi\SpringBoot)
+2022-04-28 23:52:16.699 [main] INFO  com.msb.Springboot03Application - No active profile set, falling back to 1 default profile: "default"
+2022-04-28 23:52:18.518 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-04-28 23:52:18.533 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-28 23:52:18.534 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-28 23:52:18.534 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-04-28 23:52:18.800 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring embedded WebApplicationContext
+2022-04-28 23:52:18.801 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2040 ms
+2022-04-28 23:52:18.953 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2022-04-28 23:52:19.152 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2022-04-28 23:52:19.804 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2022-04-28 23:52:20.300 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2022-04-28 23:52:20.330 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/springboot'
+2022-04-28 23:52:20.347 [main] INFO  com.msb.Springboot03Application - Started Springboot03Application in 4.413 seconds (JVM running for 6.423)
+2022-04-28 23:52:46.284 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-28 23:52:46.285 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-28 23:52:46.287 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
